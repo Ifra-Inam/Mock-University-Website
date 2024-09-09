@@ -1,1 +1,1 @@
-Over the summer I learned some new coding languages such as HTML, CSS, and Javascript. I created this project to practice my skills. 
+As I start university, I've been looking at a bunch of unversity websites, so I decided to create a mock university website using HTML and CSS. 
