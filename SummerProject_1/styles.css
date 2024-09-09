@@ -1,0 +1,262 @@
+body{
+    margin: 0px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(243, 243, 243);
+}
+
+.navbar ul{
+    width: 100%;
+    display: block;
+    height: 100px;
+    list-style-type: none; 
+    background-color: hsl(263, 50%, 27%);
+    margin: 0px; 
+    overflow: hidden; 
+    position: fixed; 
+    z-index: 1000;
+    text-align: center; 
+}
+
+.navbar li{
+    margin-left:75px; 
+    float: left;  
+    margin-top: 30px;
+}
+
+.navbar a{
+    color: white; 
+    text-decoration: none; 
+    padding: 15px; 
+    display: block; 
+}
+
+.navbar div{
+    margin-top: -25px; 
+    width: 60px;
+    height: 65px; 
+    overflow: hidden;
+    text-align: right;
+    font-size: 14px; 
+}
+
+.navbar img {
+    padding-right: 50px;
+    height: 35px; 
+    float: left; 
+}
+
+.navbar a:hover{
+    background-color: hsl(255, 38%, 45%);
+    border-radius: 10px;
+}
+
+.navbar .no-hover:hover {
+    background-color: hsl(262, 50%, 27%);
+}
+
+.navbar #search {
+    width: 90px; 
+    height: 40px; 
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none; 
+}
+
+.section {
+    z-index: 0;
+}
+
+.container {
+    position: relative; 
+    display: inline-block; 
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 60%; 
+    left: 50%; 
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 30px 60px;
+    text-align: center;
+    z-index: 1; 
+}
+
+h2{
+    margin-left: 30px;
+}
+
+.news { 
+    border: 2px solid black; 
+    padding: 10px;
+    margin-left: 30px;
+    box-shadow: 10px 10px 5px grey;
+    background-color: white; 
+    width: 400px; 
+    height: 450px; 
+    float: left; 
+}
+
+.image img {
+    text-align: center;  
+    width: 100%; 
+}
+
+#stories{
+    width:200px;
+    margin-top: 60px;
+    margin-left: 45%;
+    margin-right: 100%;
+    text-align: center;
+    float:left;
+}
+
+.statistics {
+    float: left;  
+    margin-top: 100px;
+    margin-bottom: 70px;
+    background-color:  hsl(262, 50%, 27%);
+    height: 400px; 
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.statistics #head {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.statistics #main {
+    width: 400px;
+    margin-left:40px;
+    text-align:center;
+    font-size: 18px;
+}
+
+.statistics #ref {
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+}
+
+.statistics .num{
+    color: white;
+}
+
+.stat1{
+    margin-top: 50px;
+    width: 33%; 
+    float: left;
+}
+
+.stat2{
+    margin-top: 50px;
+    width: 33%;
+    float: left; 
+}
+
+.stat3{
+    margin-top: 50px;
+    width: 33%;
+    float: left;
+}
+
+.events {
+    height: 500px;
+    width: 700px;
+    float: left; 
+    overflow: hidden; 
+    margin-right: 50px;
+}
+
+.events img {
+    width: 100%; 
+    height: 100%; 
+    display: block;
+    margin: auto;
+}
+
+.eventdiscription {
+    height: 510px; 
+    overflow: hidden;
+    margin-right: 50px;
+}
+
+.eventdiscription #one {
+    margin-top: 0px; 
+}
+
+footer{
+    display: block; 
+    clear: both;
+    margin-top: 100px;
+    background-color: hsl(262, 50%, 27%);
+    text-align: center; 
+    padding: 25px; 
+    overflow: hidden;
+    color: white;
+}
+
+.socials{
+    width: 330px; 
+    height: 50px;
+    float:right;
+    overflow: hidden;
+}
+
+.socials img {
+    width: 30px;
+    margin-right: 10px;
+    transition: 0.1s ease-in-out;
+}
+
+.socials img:hover {
+    transform: scale(1.2)
+}
+
+.locationicon img{
+    width: 20px;
+    float:left;
+}
+
+.location {
+    margin-top: -1px;
+    margin-left: 7px;
+    float: left;
+    width: 500px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.footerlinks1 {
+    width: 100px;
+    text-align: left;
+    line-height: 1.6; 
+    font-size: 14px;
+    margin-left: 45%;
+}
+.footerlinks2 {
+    margin-top: -70px;
+    width: 100px;
+    text-align: left;
+    line-height: 1.6; 
+    font-size: 14px;
+    margin-left: 55%;
+}
+
+.link{
+    color: white;
+}
+
+#credit{
+    font-size: 14px;
+}
+
+#ackn {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
